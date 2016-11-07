@@ -2,8 +2,7 @@
 -- https://www.hackerrank.com/challenges/fibonacci-modified
 
 -- Imperative fibonacci finder in the ST monad
--- Of course, it's possible -- and advisable -- to do this recursively.
--- This was just an exercise in the ST monad.
+-- Of course it's easier to do this with the canonical zipWith implementation
 
 import Control.Monad
 import Control.Monad.ST.Strict
